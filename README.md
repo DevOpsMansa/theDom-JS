@@ -8,10 +8,10 @@ You have two total days (including weekends and holidays) to work on thisassessm
 
 ## Objectives
 
-● Use DOM properties, methods, and techniques to create a web application that provides a dynamic user experience.
-● Use BOM properties, methods, and techniques to facilitate creation of adynamic web application.
-● Demonstrate proficiency with event-driven programming and DOM events.
-● Implement basic form validation using any combination of built-in HTM validation attributes and DOM-event-driven JavaScript validation.
+* Use DOM properties, methods, and techniques to create a web application that provides a dynamic user experience.
+* Use BOM properties, methods, and techniques to facilitate creation of adynamic web application.
+* Demonstrate proficiency with event-driven programming and DOM events.
+* Implement basic form validation using any combination of built-in HTM validation attributes and DOM-event-driven JavaScript validation.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Create your application locally, and initialize a local git repo. Make frequent 
 
 - Use appendChild and/or prepend to add new elements to the DOM.
 
-- - Use the DocumentFragment interface or HTML templating with the
+- Use the DocumentFragment interface or HTML templating with the
     cloneNode method to create templated content.
 
 - Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
@@ -57,4 +57,4 @@ Create your application locally, and initialize a local git repo. Make frequent 
 ### Author
 
 Eric (Mansa) Marah -Student at Per Scholas
-# theDom-JS
+
