@@ -53,7 +53,10 @@ Create your application locally, and initialize a local git repo. Make frequent 
 - Level of effort displayed in creativity, presentation, and user experience.
 
 ## Resources
+* FontAwesome: https://use.fontawesome.com/
 
+*
+*
 ### Author
 
 Eric (Mansa) Marah -Student at Per Scholas
