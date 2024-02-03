@@ -1,3 +1,5 @@
+/*Cache at least one element using querySelector or querySelectorAll.*/
+
 const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".navbar__menu");
 const navLogo = document.querySelector("#navbar__logo");
@@ -40,6 +42,7 @@ const highlightMenu = () => {
   }
 };
 
+/*Register at least two different event listeners and create the associated 10% event handler functions.*/
 window.addEventListener("scroll", highlightMenu);
 window.addEventListener("click", highlightMenu);
 
@@ -54,3 +57,31 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener("click", hideMobileMenu);
 navLogo.addEventListener("click", hideMobileMenu);
+
+// Assuming you have an HTML element with an id "parentElement"
+var parentElement = document.getElementById("img__container");
+
+// Target the first child of the parent element/ change to org after sba
+var firstChild = parentElement.firstElementChild;
+firstChild.style.background = `blue`;
+// Now you can manipulate the first child element as needed
+// console.log(firstChild);
+
+// let sign_up = document.getElementsByClassName(`sign__up`);
+// let changeColor = () => {
+//   sign_up[0].style.background = `yellow`;
+// };
+// sign_up[0].addEventListener(`click`, changeColor);
+
+let sign_up = document.getElementsByClassName("main__btn");
+
+let changeColor = () => {
+  sign_up[2].style.background = "yellow";
+};
+sign_up[2].addEventListener("click", changeColor);
+// if (sign_up.length > 0) {
+//   sign_up[2].addEventListener('click', changeColor);
+// } else {
+//   console.error('No elements with class "sign__up" found.');
+// }
+// console.log(sign_up);

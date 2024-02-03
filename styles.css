@@ -369,9 +369,9 @@
   color: #fff;
 }
 
-.main__btn:hover:after {
+/* .main__btn:hover:after {
   width: 100%;
-}
+} */
 
 .main__img--container {
   text-align: center;
