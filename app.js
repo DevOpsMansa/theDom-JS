@@ -61,27 +61,28 @@ navLogo.addEventListener("click", hideMobileMenu);
 // Assuming you have an HTML element with an id "parentElement"
 var parentElement = document.getElementById("img__container");
 
-// Target the first child of the parent element/ change to org after sba
-var firstChild = parentElement.firstElementChild;
-firstChild.style.background = `blue`;
-// Now you can manipulate the first child element as needed
-// console.log(firstChild);
+/* === Target the first child of the parent element/ change to org after sba === */
 
-// let sign_up = document.getElementsByClassName(`sign__up`);
-// let changeColor = () => {
-//   sign_up[0].style.background = `yellow`;
-// };
-// sign_up[0].addEventListener(`click`, changeColor);
+var firstChild = parentElement.firstElementChild;
+firstChild.style.background = `cyan`;
+
+/*== Modify the style and/or CSS classes of an element in response to user 5% interactions using the style or classList properties.== uncomment this in CSS after SBA to original == */
 
 let sign_up = document.getElementsByClassName("main__btn");
 
 let changeColor = () => {
-  sign_up[2].style.background = "yellow";
+  sign_up[2].style.background = "Green";
 };
 sign_up[2].addEventListener("click", changeColor);
-// if (sign_up.length > 0) {
-//   sign_up[2].addEventListener('click', changeColor);
-// } else {
-//   console.error('No elements with class "sign__up" found.');
-// }
-// console.log(sign_up);
+
+/*Modify the HTML or text content of at least one element in response to 10% user interaction using innerHTML, innerText, or textContent.
+ */
+document.addEventListener("DOMContentLoaded", function () {
+  let sign_up_button = document.getElementById("sign__up");
+  let description_paragraph = document.getElementById("description");
+
+  sign_up_button.addEventListener("click", function () {
+    // Modify the text content of the <p> element
+    description_paragraph.textContent = "You have successfully signed up!";
+  });
+});
